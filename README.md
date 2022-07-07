@@ -6,6 +6,14 @@
 docker run -d -p 80:80 --rm tgc101/shopping-cart-demo
 ```
 
+### Docker Volume 作法
+
+```
+mkdir -p /lab
+git -C /lab clone  https://github.com/TGC101/shopping-cart-demo.git
+docker run -d -p 80:80 -v /lab/shopping-cart-demo:/usr/share/nginx/html/ --rm tgc101/shopping-cart-demo
+```
+
 
 ## 自定義檔案
 

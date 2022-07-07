@@ -1,5 +1,13 @@
 # 使用方式
 
+## Quick Start
+
+```
+docker run -d -p 80:80 --rm tgc101/shopping-cart-demo
+```
+
+
+## 自定義檔案
 
 請直接修改 js 資料夾內的 products.js 內的陣列元素，要增減多少自行決定...
 
